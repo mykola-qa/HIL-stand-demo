@@ -1,0 +1,27 @@
+# Python bytecode and virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# pytest cache and the HIL run log (regenerated every test run)
+.pytest_cache/
+hil/pytest.log
+
+# PlatformIO / ESP-IDF build output (DUT and stimulator)
+.pio/
+build/
+sdkconfig
+sdkconfig.old
+
+# Local Wi-Fi credentials (keep wifi_secrets.h.example tracked)
+**/wifi_secrets.h
+
+# Local stand-diagram renderer (Pillow + Windows fonts)
+docs/draw_stand.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

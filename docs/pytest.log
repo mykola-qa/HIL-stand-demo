@@ -1,0 +1,237 @@
+13-09-2026 12:05:36 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_cli.py::test_boot_banner_ready ===
+13-09-2026 12:05:37 INFO     [drivers.owon_psu.ident:64]: OWON *IDN? OWON,SPM3051,25280161,FV:V2.1.0
+13-09-2026 12:05:37 INFO     [conftest.owon_session:54]: OWON session /dev/ttyUSB0 IDN=OWON,SPM3051,25280161,FV:V2.1.0
+13-09-2026 12:05:37 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:05:40 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:05:40 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:40 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:42 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:43 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:43 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:44 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_cli.py::test_boot_banner_ready
+13-09-2026 12:05:45 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_cli.py::test_boot_banner_ready ===
+13-09-2026 12:05:45 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_cli.py::test_help_lists_selftest ===
+13-09-2026 12:05:45 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:05:45 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:45 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:47 INFO     [drivers.dut_cli.send:196]: DUT TX: help
+13-09-2026 12:05:47 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:47 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:49 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_cli.py::test_help_lists_selftest
+13-09-2026 12:05:49 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_cli.py::test_help_lists_selftest ===
+13-09-2026 12:05:49 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_cli.py::test_status_prints_pins ===
+13-09-2026 12:05:49 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:05:50 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:50 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:51 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:52 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:52 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:54 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_cli.py::test_status_prints_pins
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_cli.py::test_status_prints_pins ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_led_la.py::test_parse_ch0_csv_skips_header ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_led_la.py::test_parse_ch0_csv_skips_header ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_led_la.py::test_parse_logic_csv_multi_channel ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_led_la.py::test_parse_logic_csv_multi_channel ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_led_la.py::test_ch0_square_stats_synthetic_1khz ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_led_la.py::test_ch0_square_stats_synthetic_1khz ===
+13-09-2026 12:05:54 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_led_la.py::test_la_led_1khz ===
+13-09-2026 12:05:54 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:05:54 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:05:54 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:05:57 INFO     [drivers.dut_cli.send:196]: DUT TX: la
+13-09-2026 12:06:01 INFO     [drivers.logic_analyzer.capture_around:205]: LA capture CH0 samples=400000 fs=100000
+13-09-2026 12:06:01 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:01 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:03 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_led_la.py::test_la_led_1khz
+13-09-2026 12:06:03 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_led_la.py::test_la_led_1khz ===
+13-09-2026 12:06:03 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_sensors.py::test_bme_pass ===
+13-09-2026 12:06:03 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:06:03 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:04 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:05 INFO     [drivers.dut_cli.send:196]: DUT TX: bme
+13-09-2026 12:06:06 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:06 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:08 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_sensors.py::test_bme_pass
+13-09-2026 12:06:08 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_sensors.py::test_bme_pass ===
+13-09-2026 12:06:08 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_sensors.py::test_ina_pass ===
+13-09-2026 12:06:08 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:06:08 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:08 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:10 INFO     [drivers.dut_cli.send:196]: DUT TX: ina
+13-09-2026 12:06:10 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:11 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:12 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_sensors.py::test_ina_pass
+13-09-2026 12:06:12 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_sensors.py::test_ina_pass ===
+13-09-2026 12:06:12 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_sensors.py::test_us100_pass ===
+13-09-2026 12:06:12 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:06:13 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:13 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:14 INFO     [drivers.dut_cli.send:196]: DUT TX: us100
+13-09-2026 12:06:15 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:15 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:17 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_sensors.py::test_us100_pass
+13-09-2026 12:06:17 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_sensors.py::test_us100_pass ===
+13-09-2026 12:06:17 INFO     [conftest.pytest_runtest_setup:19]: === START tests/functional/test_sensors.py::test_selftest_runs ===
+13-09-2026 12:06:17 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:06:17 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:17 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:19 INFO     [drivers.dut_cli.send:196]: DUT TX: selftest
+13-09-2026 12:06:20 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:20 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:21 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/functional/test_sensors.py::test_selftest_runs
+13-09-2026 12:06:21 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/functional/test_sensors.py::test_selftest_runs ===
+13-09-2026 12:06:21 INFO     [conftest.pytest_runtest_setup:19]: === START tests/power/test_brownout_recovery.py::test_power_cycle_boot ===
+13-09-2026 12:06:22 INFO     [drivers.owon_psu.power_cycle:141]: OWON power-cycle off=1.2s then 5.00 V
+13-09-2026 12:06:23 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:06:27 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=59.7s
+13-09-2026 12:06:27 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:27 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:29 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=8.0s
+13-09-2026 12:06:29 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:29 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:06:31 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:31 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:33 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/power/test_brownout_recovery.py::test_power_cycle_boot
+13-09-2026 12:06:33 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/power/test_brownout_recovery.py::test_power_cycle_boot ===
+13-09-2026 12:06:33 INFO     [conftest.pytest_runtest_setup:19]: === START tests/power/test_brownout_recovery.py::test_brownout_then_recover ===
+13-09-2026 12:06:33 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:06:36 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=60.0s
+13-09-2026 12:06:36 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:36 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:36 INFO     [drivers.owon_psu.apply:111]: OWON apply 4.50 V, Ilim=0.500 A, settle=0.8s
+13-09-2026 12:06:38 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=3.0s
+13-09-2026 12:06:38 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:42 ERROR    [drivers.dut_cli.wait_for:76]: timeout 3s waiting for /US100=4/5/
+1.674 esp32s3-qa
+1.690 gy-bm BME280 @ 0x76
+1.692 ina219 @ 0x40 cal=4096
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xf (BROWNOUT_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+1.674 esp32s3-qa
+1.690 gy-bm BME280 @ 0x76
+1.692 ina219 @ 0x40 cal=4096
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xf (BROWNOUT_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+13-09-2026 12:06:42 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:06:44 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=60.0s
+13-09-2026 12:06:44 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:45 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:45 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:06:46 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:47 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:48 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/power/test_brownout_recovery.py::test_brownout_then_recover
+13-09-2026 12:06:48 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/power/test_brownout_recovery.py::test_brownout_then_recover ===
+13-09-2026 12:06:48 INFO     [conftest.pytest_runtest_setup:19]: === START tests/power/test_rail_characterize.py::test_rail_5v1_dut_responsive ===
+13-09-2026 12:06:49 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:06:51 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=60.0s
+13-09-2026 12:06:51 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:52 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:52 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.10 V, Ilim=0.500 A, settle=1.0s
+13-09-2026 12:06:54 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=8.0s
+13-09-2026 12:06:54 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:54 INFO     [drivers.dut_cli.send:196]: DUT TX: bme
+13-09-2026 12:06:54 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:06:56 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:06:56 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:06:58 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/power/test_rail_characterize.py::test_rail_5v1_dut_responsive
+13-09-2026 12:06:58 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/power/test_rail_characterize.py::test_rail_5v1_dut_responsive ===
+13-09-2026 12:06:58 INFO     [conftest.pytest_runtest_setup:19]: === START tests/power/test_rail_characterize.py::test_rail_5v2_dut_responsive ===
+13-09-2026 12:06:58 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:07:01 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=60.0s
+13-09-2026 12:07:01 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:01 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:01 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.20 V, Ilim=0.500 A, settle=1.0s
+13-09-2026 12:07:04 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=8.0s
+13-09-2026 12:07:04 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:04 INFO     [drivers.dut_cli.send:196]: DUT TX: bme
+13-09-2026 12:07:04 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.8s
+13-09-2026 12:07:06 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:07:07 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:08 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:09 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/power/test_rail_characterize.py::test_rail_5v2_dut_responsive
+13-09-2026 12:07:09 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/power/test_rail_characterize.py::test_rail_5v2_dut_responsive ===
+13-09-2026 12:07:09 INFO     [conftest.pytest_runtest_setup:19]: === START tests/power/test_rail_nominal.py::test_rail_5v0_within_limits ===
+13-09-2026 12:07:10 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:07:12 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=60.0s
+13-09-2026 12:07:12 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:13 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:13 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=1.0s
+13-09-2026 12:07:15 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=8.0s
+13-09-2026 12:07:15 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:15 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:07:17 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:17 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:18 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/power/test_rail_nominal.py::test_rail_5v0_within_limits
+13-09-2026 12:07:18 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/power/test_rail_nominal.py::test_rail_5v0_within_limits ===
+13-09-2026 12:07:18 INFO     [conftest.pytest_runtest_setup:19]: === START tests/power/test_rail_nominal.py::test_idle_current_within_limits ===
+13-09-2026 12:07:19 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=2.0s
+13-09-2026 12:07:22 INFO     [drivers.dut_cli.recover:126]: recover DUT (Device Under Test) timeout=60.0s
+13-09-2026 12:07:22 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:22 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:22 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=1.5s
+13-09-2026 12:07:24 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=8.0s
+13-09-2026 12:07:25 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:25 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:07:27 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:27 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:29 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/power/test_rail_nominal.py::test_idle_current_within_limits
+13-09-2026 12:07:29 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/power/test_rail_nominal.py::test_idle_current_within_limits ===
+13-09-2026 12:07:29 INFO     [conftest.pytest_runtest_setup:19]: === START tests/stim/test_buttons.py::test_btn1_runs_selftest ===
+13-09-2026 12:07:29 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:07:29 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:29 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:31 INFO     [drivers.stim_cli.send:29]: stim TX: help
+13-09-2026 12:07:32 INFO     [drivers.stim_cli.press:39]: stim press BTN1 150 ms
+13-09-2026 12:07:32 INFO     [drivers.stim_cli.send:29]: stim TX: press 1 150
+13-09-2026 12:07:32 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:33 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:34 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/stim/test_buttons.py::test_btn1_runs_selftest
+13-09-2026 12:07:34 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/stim/test_buttons.py::test_btn1_runs_selftest ===
+13-09-2026 12:07:34 INFO     [conftest.pytest_runtest_setup:19]: === START tests/stim/test_buttons.py::test_btn2_runs_ina ===
+13-09-2026 12:07:34 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:07:35 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:35 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:37 INFO     [drivers.stim_cli.send:29]: stim TX: help
+13-09-2026 12:07:37 INFO     [drivers.stim_cli.press:39]: stim press BTN2 150 ms
+13-09-2026 12:07:37 INFO     [drivers.stim_cli.send:29]: stim TX: press 2 150
+13-09-2026 12:07:38 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:38 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:40 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/stim/test_buttons.py::test_btn2_runs_ina
+13-09-2026 12:07:40 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/stim/test_buttons.py::test_btn2_runs_ina ===
+13-09-2026 12:07:40 INFO     [conftest.pytest_runtest_setup:19]: === START tests/stim/test_buttons.py::test_btn3_runs_us100 ===
+13-09-2026 12:07:40 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:07:40 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:40 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:42 INFO     [drivers.stim_cli.send:29]: stim TX: help
+13-09-2026 12:07:42 INFO     [drivers.stim_cli.press:39]: stim press BTN3 150 ms
+13-09-2026 12:07:42 INFO     [drivers.stim_cli.send:29]: stim TX: press 3 150
+13-09-2026 12:07:43 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:43 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:45 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/stim/test_buttons.py::test_btn3_runs_us100
+13-09-2026 12:07:45 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/stim/test_buttons.py::test_btn3_runs_us100 ===
+13-09-2026 12:07:45 INFO     [conftest.pytest_runtest_setup:19]: === START tests/stim/test_buttons.py::test_btn4_runs_bme ===
+13-09-2026 12:07:45 INFO     [conftest.dut:78]: DUT (Device Under Test) rail ready via OWON /dev/ttyUSB0
+13-09-2026 12:07:46 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:46 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:48 INFO     [drivers.stim_cli.send:29]: stim TX: help
+13-09-2026 12:07:48 INFO     [drivers.stim_cli.press:39]: stim press BTN4 150 ms
+13-09-2026 12:07:48 INFO     [drivers.stim_cli.send:29]: stim TX: press 4 150
+13-09-2026 12:07:49 INFO     [drivers.dut_cli.prove_alive:111]: prove_alive timeout=5.0s
+13-09-2026 12:07:49 INFO     [drivers.dut_cli.send:196]: DUT TX: status
+13-09-2026 12:07:51 INFO     [conftest.recover_frozen_dut:142]: DUT (Device Under Test) alive after tests/stim/test_buttons.py::test_btn4_runs_bme
+13-09-2026 12:07:51 INFO     [drivers.owon_psu.apply:111]: OWON apply 5.00 V, Ilim=0.500 A, settle=0.5s
+13-09-2026 12:07:52 INFO     [conftest.pytest_runtest_teardown:24]: === END tests/stim/test_buttons.py::test_btn4_runs_bme ===
