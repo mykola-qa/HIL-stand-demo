@@ -7,8 +7,6 @@ This repo is the firmware, wiring, and pytest suite used on that stand — not a
 
 ![HIL stand diagram](docs/stand_diagram.png)
 
-![First stage](docs/first_stage.jpg)
-
 ![Wired stand](docs/Finished_HIL_stand.jpg)
 
 ![Example test run](docs/test_run_results.jpg)
