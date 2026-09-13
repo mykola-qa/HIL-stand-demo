@@ -5,9 +5,9 @@ ESP32-H2 button stimulator, OWON PSU (Power Supply Unit) on the 5 V rail, INA219
 
 This repo is the firmware, wiring, and pytest suite used on that stand — not a course hand-in.
 
-![HIL stand diagram](docs/stand_diagram.png)
-
 ![Wired stand](docs/Finished_HIL_stand.jpg)
+
+![HIL stand diagram](docs/stand_diagram.png)
 
 ![Example test run](docs/test_run_results.jpg)
 
